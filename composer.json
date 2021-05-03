@@ -1,0 +1,26 @@
+{
+    "name": "device1/myplugin",
+    "description": "Plugin that shows a list of users in a specified path",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Carina Or",
+            "email": "mail@mail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "inpsyde/php-coding-standards": "^1@dev",
+        "brain/monkey": "^2.6",
+        "phpunit/phpunit": "10.0.x-dev",
+        "mockery/mockery": "1.4.x-dev",
+        "antecedent/patchwork": "2.1.12"
+    },
+    "autoload": {
+        "psr-4": {"Myplugin\\":"./"}
+    },
+    "scripts": {
+            "test": "phpunit"
+        }
+}
