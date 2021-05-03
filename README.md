@@ -14,5 +14,5 @@ Or in Windows platform
     $ vendor/bin/phpcs --standard="Inpsyde" <path>
     
     
-There's two types of cache being used here, wordpress cache to store the details to not call again for the same details and transient for lists.
+There're two types of cache being used here, wordpress cache to store the details to not call again for the same details and transient for lists.
 The endpoint where the page will show up is customizable, changing it in the tab ' My Plugin ' in the admin dashboard.
